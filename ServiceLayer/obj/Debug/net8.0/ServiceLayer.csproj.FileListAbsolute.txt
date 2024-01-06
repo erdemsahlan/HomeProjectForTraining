@@ -1,0 +1,17 @@
+C:\Users\sahla\source\repos\HomeProject\ServiceLayer\bin\Debug\net8.0\ServiceLayer.deps.json
+C:\Users\sahla\source\repos\HomeProject\ServiceLayer\bin\Debug\net8.0\ServiceLayer.dll
+C:\Users\sahla\source\repos\HomeProject\ServiceLayer\bin\Debug\net8.0\ServiceLayer.pdb
+C:\Users\sahla\source\repos\HomeProject\ServiceLayer\bin\Debug\net8.0\CoreLayer.dll
+C:\Users\sahla\source\repos\HomeProject\ServiceLayer\bin\Debug\net8.0\CoreLayer.pdb
+C:\Users\sahla\source\repos\HomeProject\ServiceLayer\obj\Debug\net8.0\ServiceLayer.csproj.AssemblyReference.cache
+C:\Users\sahla\source\repos\HomeProject\ServiceLayer\obj\Debug\net8.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahla\source\repos\HomeProject\ServiceLayer\obj\Debug\net8.0\ServiceLayer.AssemblyInfoInputs.cache
+C:\Users\sahla\source\repos\HomeProject\ServiceLayer\obj\Debug\net8.0\ServiceLayer.AssemblyInfo.cs
+C:\Users\sahla\source\repos\HomeProject\ServiceLayer\obj\Debug\net8.0\ServiceLayer.csproj.CoreCompileInputs.cache
+C:\Users\sahla\source\repos\HomeProject\ServiceLayer\obj\Debug\net8.0\ServiceLayer.csproj.CopyComplete
+C:\Users\sahla\source\repos\HomeProject\ServiceLayer\obj\Debug\net8.0\ServiceLayer.dll
+C:\Users\sahla\source\repos\HomeProject\ServiceLayer\obj\Debug\net8.0\refint\ServiceLayer.dll
+C:\Users\sahla\source\repos\HomeProject\ServiceLayer\obj\Debug\net8.0\ServiceLayer.pdb
+C:\Users\sahla\source\repos\HomeProject\ServiceLayer\obj\Debug\net8.0\ref\ServiceLayer.dll
+C:\Users\sahla\source\repos\HomeProject\ServiceLayer\bin\Debug\net8.0\RepositoryLayer.dll
+C:\Users\sahla\source\repos\HomeProject\ServiceLayer\bin\Debug\net8.0\RepositoryLayer.pdb
