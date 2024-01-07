@@ -9,3 +9,4 @@ C:\Users\sahla\source\repos\HomeProject\CoreLayer\obj\Debug\net8.0\CoreLayer.dll
 C:\Users\sahla\source\repos\HomeProject\CoreLayer\obj\Debug\net8.0\refint\CoreLayer.dll
 C:\Users\sahla\source\repos\HomeProject\CoreLayer\obj\Debug\net8.0\CoreLayer.pdb
 C:\Users\sahla\source\repos\HomeProject\CoreLayer\obj\Debug\net8.0\ref\CoreLayer.dll
+C:\Users\sahla\source\repos\HomeProject\CoreLayer\obj\Debug\net8.0\CoreLayer.sourcelink.json

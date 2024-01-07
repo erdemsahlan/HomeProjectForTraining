@@ -15,3 +15,4 @@ C:\Users\sahla\source\repos\HomeProject\ServiceLayer\obj\Debug\net8.0\ServiceLay
 C:\Users\sahla\source\repos\HomeProject\ServiceLayer\obj\Debug\net8.0\ref\ServiceLayer.dll
 C:\Users\sahla\source\repos\HomeProject\ServiceLayer\bin\Debug\net8.0\RepositoryLayer.dll
 C:\Users\sahla\source\repos\HomeProject\ServiceLayer\bin\Debug\net8.0\RepositoryLayer.pdb
+C:\Users\sahla\source\repos\HomeProject\ServiceLayer\obj\Debug\net8.0\ServiceLayer.sourcelink.json

@@ -35,7 +35,7 @@ namespace RepositoryLayer.Repositories
             return await _dbSet.AnyAsync(expression);
         }
 
-        public IQueryable<T> GetAll(Expression<Func<T, bool>> expression)
+        public IQueryable<T> GetAll()
         {
             return _dbSet.AsNoTracking().AsQueryable();
         }
@@ -63,6 +63,11 @@ namespace RepositoryLayer.Repositories
         public IQueryable<T> Where(Expression<Func<T, bool>> expression)
         {
             return _dbSet.Where(expression);
+        }
+
+        Task<IEnumerable<T>> IGenericRepository<T>.AddRangeAsync(IEnumerable<T> entities)
+        {
+            throw new NotImplementedException();
         }
     }
 }
