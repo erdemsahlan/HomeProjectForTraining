@@ -12,8 +12,8 @@ using RepositoryLayer;
 namespace RepositoryLayer.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240103191240_initial")]
-    partial class initial
+    [Migration("20240109174622_dbSetFirst")]
+    partial class dbSetFirst
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

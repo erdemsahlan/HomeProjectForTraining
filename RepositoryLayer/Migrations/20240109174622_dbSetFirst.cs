@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace RepositoryLayer.Migrations
 {
     /// <inheritdoc />
-    public partial class initial : Migration
+    public partial class dbSetFirst : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
