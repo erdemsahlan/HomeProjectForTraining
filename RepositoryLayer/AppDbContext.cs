@@ -17,10 +17,18 @@ namespace RepositoryLayer
 
         public DbSet<Department> Departments { get; set; }
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<ViewModal> View_1 { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly()); //configlerin kullanılmasını sağlar ve mevcut assembly da ki hepsini uygular
+
+            modelBuilder
+                .Entity<ViewModal>()
+                .ToView("View_1")
+                .HasKey(x => x.Id);
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

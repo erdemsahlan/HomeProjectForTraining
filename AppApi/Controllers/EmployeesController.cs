@@ -12,11 +12,13 @@ namespace AppApi.Controllers
     {
         private readonly IMapper _mapper;
         private readonly IService<Employee> _service;
+        private readonly IService<ViewModal> _serviceModal;
 
-        public EmployeesController(IMapper mapper, IService<Employee> service)
+        public EmployeesController(IMapper mapper, IService<Employee> service, IService<ViewModal> serviceModal)
         {
             _mapper = mapper;
             _service = service;
+            _serviceModal = serviceModal;
         }
 
         [HttpGet]
@@ -25,6 +27,13 @@ namespace AppApi.Controllers
             var employees=await _service.GetAllAsync();
             var employeesDtos = _mapper.Map<List<EmployeeDto>>(employees).ToList();
             return CreateActionResult(CustomResponseDto<List<EmployeeDto>>.Success(200, employeesDtos));
+        }
+        [HttpGet("View/test")]
+        public async Task<IActionResult> GetAllView()
+        {
+            var list= await _serviceModal.GetAllAsync();
+            var viewDto=_mapper.Map<List<ViewModal>>(list).ToList();
+            return CreateActionResult(CustomResponseDto<List<ViewModal>>.Success(200, viewDto));
         }
 
         [HttpGet("{id}")]
@@ -61,5 +70,7 @@ namespace AppApi.Controllers
             await _service.RemoveAsync(employee);
             return CreateActionResult(CustomResponseDto<NoContentDto>.Success(204));
         }
+
+
     }
 }
