@@ -143,3 +143,4 @@ C:\Users\sahla\source\repos\HomeProject\AppApi\bin\Debug\net8.0\zh-Hant\Microsof
 C:\Users\sahla\source\repos\HomeProject\AppApi\obj\Debug\net8.0\AppApi.sourcelink.json
 C:\Users\sahla\source\repos\HomeProject\AppApi\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\sahla\source\repos\HomeProject\AppApi\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\sahla\source\repos\HomeProject\AppApi\bin\Debug\net8.0\Dapper.dll

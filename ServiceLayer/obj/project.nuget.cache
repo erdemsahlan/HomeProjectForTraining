@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Tv9EI0lDNhnbSH9fsxraCqXujB6VCRVjLtWv5JlfkDDoqyKZtYLOgRgF+V3tB5gaw2QB8d4OaGBQnwDF+nbkLg==",
+  "dgSpecHash": "XVPznIswwlyYcfz1ahs5j40qxKCCRe9p0Gv1fmvy9gE6IlKy5F2rZkjrJL509lHOfmfBmIqDlQKcHNeENMwZiA==",
   "success": true,
   "projectFilePath": "C:\\Users\\sahla\\source\\repos\\HomeProject\\ServiceLayer\\ServiceLayer.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\sahla\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\sahla\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\sahla\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\sahla\\.nuget\\packages\\dapper\\2.1.28\\dapper.2.1.28.nupkg.sha512",
     "C:\\Users\\sahla\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\sahla\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\sahla\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",

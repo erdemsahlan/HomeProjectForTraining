@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "J2DYOpBCR51lm0ulb0nQAlL1Qj8H+XfWRiYSoWyDiZNQWssT0n1Gp6FvW7QneXVyXRDMoS3cBoKpgaDnI07Bmg==",
+  "dgSpecHash": "ghzBv7EeY//9FS5/m44a9cyY1xonQLYXYf1E09Jxoo+C4T/jdiKWCM0GLhDDhiRW7/HQMS80bF4dn7ffPFJIaw==",
   "success": true,
   "projectFilePath": "C:\\Users\\sahla\\source\\repos\\HomeProject\\AppApi\\AppApi.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\sahla\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\sahla\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\sahla\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\sahla\\.nuget\\packages\\dapper\\2.1.28\\dapper.2.1.28.nupkg.sha512",
     "C:\\Users\\sahla\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\sahla\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\sahla\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",

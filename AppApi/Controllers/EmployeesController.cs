@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using CoreLayer.DTOs;
 using CoreLayer.Modals;
+using CoreLayer.Repositories;
 using CoreLayer.Service;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -13,12 +14,17 @@ namespace AppApi.Controllers
         private readonly IMapper _mapper;
         private readonly IService<Employee> _service;
         private readonly IService<ViewModal> _serviceModal;
+        private readonly IEmployeeRepoWithDapper _employeeRepoWithDapper;
 
-        public EmployeesController(IMapper mapper, IService<Employee> service, IService<ViewModal> serviceModal)
+        public EmployeesController(IMapper mapper
+            ,IService<Employee> service
+            ,IService<ViewModal> serviceModal
+            , IEmployeeRepoWithDapper employeeRepoWithDapper)
         {
             _mapper = mapper;
             _service = service;
             _serviceModal = serviceModal;
+            _employeeRepoWithDapper = employeeRepoWithDapper;
         }
 
         [HttpGet]
@@ -71,6 +77,12 @@ namespace AppApi.Controllers
             return CreateActionResult(CustomResponseDto<NoContentDto>.Success(204));
         }
 
+        [HttpGet("dapperGetAll")]
+        public async Task<IActionResult> GetDapperAll()
+        {
+            var values=await _employeeRepoWithDapper.GetAllEmployeeAsync();
+            return Ok(values);
+        }
 
     }
 }
